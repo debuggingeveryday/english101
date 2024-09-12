@@ -14,7 +14,7 @@ def hello_world():
     ## gets API Key from environment variable OPENAI_API_KEY
     client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
-    api_key="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",
+    api_key="1",
     )
 
     completion = client.chat.completions.create(
